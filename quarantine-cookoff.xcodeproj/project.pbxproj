@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		646687963D8A01C39FC73DFC /* Pods_quarantine_cookoff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B368630FB748C5BBA309EC /* Pods_quarantine_cookoff.framework */; };
 		D0B75837243DB1C400F5C6D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B75836243DB1C400F5C6D1 /* AppDelegate.swift */; };
 		D0B75839243DB1C400F5C6D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B75838243DB1C400F5C6D1 /* SceneDelegate.swift */; };
 		D0B7583B243DB1C400F5C6D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B7583A243DB1C400F5C6D1 /* ViewController.swift */; };
 		D0B7583E243DB1C400F5C6D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B7583C243DB1C400F5C6D1 /* Main.storyboard */; };
 		D0B75840243DB1C500F5C6D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B7583F243DB1C500F5C6D1 /* Assets.xcassets */; };
 		D0B75843243DB1C500F5C6D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B75841243DB1C500F5C6D1 /* LaunchScreen.storyboard */; };
+		D0B7584B243DB20200F5C6D1 /* RootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B7584A243DB20200F5C6D1 /* RootVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19B368630FB748C5BBA309EC /* Pods_quarantine_cookoff.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_quarantine_cookoff.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E3B29C2160EF3885EED2FE5 /* Pods-quarantine-cookoff.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quarantine-cookoff.debug.xcconfig"; path = "Target Support Files/Pods-quarantine-cookoff/Pods-quarantine-cookoff.debug.xcconfig"; sourceTree = "<group>"; };
+		8627283FC6B1FB30B79F232C /* Pods-quarantine-cookoff.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quarantine-cookoff.release.xcconfig"; path = "Target Support Files/Pods-quarantine-cookoff/Pods-quarantine-cookoff.release.xcconfig"; sourceTree = "<group>"; };
 		D0B75833243DB1C400F5C6D1 /* quarantine-cookoff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "quarantine-cookoff.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B75836243DB1C400F5C6D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0B75838243DB1C400F5C6D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		D0B7583F243DB1C500F5C6D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0B75842243DB1C500F5C6D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0B75844243DB1C500F5C6D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0B7584A243DB20200F5C6D1 /* RootVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RootVC.swift; path = "/Users/shekarramaswamy/Desktop/quarantine-cookoff/quarantine-cookoff/RootVC.swift"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				646687963D8A01C39FC73DFC /* Pods_quarantine_cookoff.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27F5C1977715D4EAFEFA431C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E3B29C2160EF3885EED2FE5 /* Pods-quarantine-cookoff.debug.xcconfig */,
+				8627283FC6B1FB30B79F232C /* Pods-quarantine-cookoff.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B6B3405FB84179C43E769B08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19B368630FB748C5BBA309EC /* Pods_quarantine_cookoff.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D0B7582A243DB1C400F5C6D1 = {
 			isa = PBXGroup;
 			children = (
 				D0B75835243DB1C400F5C6D1 /* quarantine-cookoff */,
 				D0B75834243DB1C400F5C6D1 /* Products */,
+				27F5C1977715D4EAFEFA431C /* Pods */,
+				B6B3405FB84179C43E769B08 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +82,7 @@
 		D0B75835243DB1C400F5C6D1 /* quarantine-cookoff */ = {
 			isa = PBXGroup;
 			children = (
+				D0B7584C243DB21000F5C6D1 /* VC */,
 				D0B75836243DB1C400F5C6D1 /* AppDelegate.swift */,
 				D0B75838243DB1C400F5C6D1 /* SceneDelegate.swift */,
 				D0B7583A243DB1C400F5C6D1 /* ViewController.swift */,
@@ -67,6 +94,14 @@
 			path = "quarantine-cookoff";
 			sourceTree = "<group>";
 		};
+		D0B7584C243DB21000F5C6D1 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				D0B7584A243DB20200F5C6D1 /* RootVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +109,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0B75847243DB1C500F5C6D1 /* Build configuration list for PBXNativeTarget "quarantine-cookoff" */;
 			buildPhases = (
+				35C3FA691F174B893AD021AF /* [CP] Check Pods Manifest.lock */,
 				D0B7582F243DB1C400F5C6D1 /* Sources */,
 				D0B75830243DB1C400F5C6D1 /* Frameworks */,
 				D0B75831243DB1C400F5C6D1 /* Resources */,
@@ -133,11 +169,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		35C3FA691F174B893AD021AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-quarantine-cookoff-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D0B7582F243DB1C400F5C6D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0B7584B243DB20200F5C6D1 /* RootVC.swift in Sources */,
 				D0B7583B243DB1C400F5C6D1 /* ViewController.swift in Sources */,
 				D0B75837243DB1C400F5C6D1 /* AppDelegate.swift in Sources */,
 				D0B75839243DB1C400F5C6D1 /* SceneDelegate.swift in Sources */,
@@ -282,6 +344,7 @@
 		};
 		D0B75848243DB1C500F5C6D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E3B29C2160EF3885EED2FE5 /* Pods-quarantine-cookoff.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +363,7 @@
 		};
 		D0B75849243DB1C500F5C6D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8627283FC6B1FB30B79F232C /* Pods-quarantine-cookoff.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
