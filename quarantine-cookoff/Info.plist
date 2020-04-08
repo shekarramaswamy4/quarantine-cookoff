@@ -43,6 +43,26 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>SCSDKClientId</key>
+	<string>0d14c6be-c756-4dca-b2cb-7d1cd73d588e</string>
+	<key>SCSDKRedirectUrl</key>
+	<string>quarantinecookoff://myapp</string>
+	<key>SCSDKScopes</key>
+	<array>
+		<string>https://auth.snapchat.com/oauth2/api/user.display_name</string>
+		<string>https://auth.snapchat.com/oauth2/api/user.bitmoji.avatar</string>
+		<string>https://auth.snapchat.com/oauth2/api/user.external_id</string>
+	</array>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>snapchat</string>
+		<string>bitmoji-sdk</string>
+		<string>itms-apps</string>
+	</array>
+	<key>CFBundleURLSchemes</key>
+	<array>
+		<string>quarantinecookoff</string>
+	</array>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

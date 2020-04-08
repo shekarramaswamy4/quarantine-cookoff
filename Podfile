@@ -6,5 +6,6 @@ target 'quarantine-cookoff' do
   use_frameworks!
 
   # Pods for quarantine-cookoff
+  pod 'SnapSDK', :subspecs => ['SCSDKLoginKit', 'SCSDKCreativeKit']
 
 end

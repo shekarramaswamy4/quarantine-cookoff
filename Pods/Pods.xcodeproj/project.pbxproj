@@ -6,60 +6,133 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		DC460828FF0F2F76C86CA020169EDB5F /* SnapSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 52EC5BD53AFC31153286E36345A879DE /* Build configuration list for PBXAggregateTarget "SnapSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SnapSDK;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		197D80D588A0CD80ABEB700A047326FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		666C9A4EFFB519E00C1E9528CA84BF69 /* Pods-quarantine-cookoff-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B3B3E5E0F3348AE8DCF9DF6F3671D9 /* Pods-quarantine-cookoff-dummy.m */; };
-		E48295277BA8785F70C19BE13938898C /* Pods-quarantine-cookoff-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 553FB6F37C3EEBB63375585524A5BF4C /* Pods-quarantine-cookoff-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		119E60D37299E82E248F2C8063022DBB /* Pods-quarantine-cookoff-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B768A98962E3530149446BADF46BB61 /* Pods-quarantine-cookoff-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		376F1D584BC3AE71EBB56321E5CF85F4 /* Pods-quarantine-cookoff-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B4B4BEA12E818D10D7B6EBDB2CA348 /* Pods-quarantine-cookoff-dummy.m */; };
+		526B05523813798D03E9FEB5526D1053 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		25956BF908BC3477C18F802ECB1C102F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC460828FF0F2F76C86CA020169EDB5F;
+			remoteInfo = SnapSDK;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		183B505851C220739CCA9231474D8DB5 /* Pods-quarantine-cookoff-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-quarantine-cookoff-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1E6A6C1548D466E40965A6F2BF6CC2CD /* Pods-quarantine-cookoff.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-quarantine-cookoff.release.xcconfig"; sourceTree = "<group>"; };
+		20FEC39F8D85D9FC3F5EFC22417C920C /* Pods-quarantine-cookoff.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-quarantine-cookoff.debug.xcconfig"; sourceTree = "<group>"; };
+		25A004E49B9C6859D3493FEEC202C520 /* SCSDKCreativeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SCSDKCreativeKit.framework; sourceTree = "<group>"; };
 		266AA8E1188960AC302501F3A32FCAB6 /* Pods_quarantine_cookoff.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_quarantine_cookoff.framework; path = "Pods-quarantine-cookoff.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		553FB6F37C3EEBB63375585524A5BF4C /* Pods-quarantine-cookoff-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-quarantine-cookoff-umbrella.h"; sourceTree = "<group>"; };
-		71931FC32A8F530C82713FBB1D80AC27 /* Pods-quarantine-cookoff-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-quarantine-cookoff-acknowledgements.markdown"; sourceTree = "<group>"; };
-		77AB7EE2E7B283BC0BD668EF87026152 /* Pods-quarantine-cookoff-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-quarantine-cookoff-acknowledgements.plist"; sourceTree = "<group>"; };
-		7A6325AB201A18F2E85327C736E87830 /* Pods-quarantine-cookoff-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-quarantine-cookoff-Info.plist"; sourceTree = "<group>"; };
-		8513C5E9F6181B9AB9D5611F7666DB71 /* Pods-quarantine-cookoff.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-quarantine-cookoff.modulemap"; sourceTree = "<group>"; };
-		88ED84293ABB9482E40F5AC2463674B5 /* Pods-quarantine-cookoff.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-quarantine-cookoff.release.xcconfig"; sourceTree = "<group>"; };
-		940FF0F7DFD1E9AAEE3995C16FB65AC9 /* Pods-quarantine-cookoff.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-quarantine-cookoff.debug.xcconfig"; sourceTree = "<group>"; };
+		3B0F520C9A8E94CD9D55B07F4ACCC48C /* Pods-quarantine-cookoff-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-quarantine-cookoff-frameworks.sh"; sourceTree = "<group>"; };
+		4C450C66917D1FE1CCE65DB996BA1481 /* Pods-quarantine-cookoff.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-quarantine-cookoff.modulemap"; sourceTree = "<group>"; };
+		5B768A98962E3530149446BADF46BB61 /* Pods-quarantine-cookoff-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-quarantine-cookoff-umbrella.h"; sourceTree = "<group>"; };
+		7528A77771239B65A6A21DBFBBAF4FE1 /* SnapSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapSDK.xcconfig; sourceTree = "<group>"; };
+		764EBBB0043B4C0A4861569A8E9CC0E2 /* SCSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SCSDKLoginKit.framework; sourceTree = "<group>"; };
+		81B4B4BEA12E818D10D7B6EBDB2CA348 /* Pods-quarantine-cookoff-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-quarantine-cookoff-dummy.m"; sourceTree = "<group>"; };
+		9658A2696D8F2E1415E01DC68585B4DA /* Pods-quarantine-cookoff-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-quarantine-cookoff-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C7B3B3E5E0F3348AE8DCF9DF6F3671D9 /* Pods-quarantine-cookoff-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-quarantine-cookoff-dummy.m"; sourceTree = "<group>"; };
+		AC801CC08EFC351713FCDA612AA573F0 /* Pods-quarantine-cookoff-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-quarantine-cookoff-Info.plist"; sourceTree = "<group>"; };
+		FF19D6602F04BA6EA75332C68367A794 /* SCSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SCSDKCoreKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		53B5D6049221C3DF609360FEBB712184 /* Frameworks */ = {
+		18CE72F6DFD8F5A2A2B0AC59A24DF184 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				197D80D588A0CD80ABEB700A047326FB /* Foundation.framework in Frameworks */,
+				526B05523813798D03E9FEB5526D1053 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9AA1F8C3D09ED904444035BD6E53BCA0 /* Targets Support Files */ = {
+		0395C7AABC3FE0AB65A23893B9EEBB5A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BACB0D7CB845503117773AA8DA1A5543 /* Pods-quarantine-cookoff */,
+				7528A77771239B65A6A21DBFBBAF4FE1 /* SnapSDK.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Support Files";
+			path = "../Target Support Files/SnapSDK";
 			sourceTree = "<group>";
 		};
-		BACB0D7CB845503117773AA8DA1A5543 /* Pods-quarantine-cookoff */ = {
+		21BBAD9A6FA4A53B7516AC54773922C7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8513C5E9F6181B9AB9D5611F7666DB71 /* Pods-quarantine-cookoff.modulemap */,
-				71931FC32A8F530C82713FBB1D80AC27 /* Pods-quarantine-cookoff-acknowledgements.markdown */,
-				77AB7EE2E7B283BC0BD668EF87026152 /* Pods-quarantine-cookoff-acknowledgements.plist */,
-				C7B3B3E5E0F3348AE8DCF9DF6F3671D9 /* Pods-quarantine-cookoff-dummy.m */,
-				7A6325AB201A18F2E85327C736E87830 /* Pods-quarantine-cookoff-Info.plist */,
-				553FB6F37C3EEBB63375585524A5BF4C /* Pods-quarantine-cookoff-umbrella.h */,
-				940FF0F7DFD1E9AAEE3995C16FB65AC9 /* Pods-quarantine-cookoff.debug.xcconfig */,
-				88ED84293ABB9482E40F5AC2463674B5 /* Pods-quarantine-cookoff.release.xcconfig */,
+				FF19D6602F04BA6EA75332C68367A794 /* SCSDKCoreKit.framework */,
+				25A004E49B9C6859D3493FEEC202C520 /* SCSDKCreativeKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3387988E6882F7C31A6762648F223AB0 /* SnapSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D80B15104769FB3727EE13AB9FACB112 /* SCSDKCreativeKit */,
+				82207B66CB59374B424CD50874904433 /* SCSDKLoginKit */,
+				0395C7AABC3FE0AB65A23893B9EEBB5A /* Support Files */,
+			);
+			name = SnapSDK;
+			path = SnapSDK;
+			sourceTree = "<group>";
+		};
+		39486C1FA4DCCD6C6B36CFA648D23363 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3387988E6882F7C31A6762648F223AB0 /* SnapSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		82207B66CB59374B424CD50874904433 /* SCSDKLoginKit */ = {
+			isa = PBXGroup;
+			children = (
+				A27B6F02B3EEC157BBB11257C758B7F6 /* Frameworks */,
+			);
+			name = SCSDKLoginKit;
+			sourceTree = "<group>";
+		};
+		8BEE648CEBBA2D7D79D85AB198884F87 /* Pods-quarantine-cookoff */ = {
+			isa = PBXGroup;
+			children = (
+				4C450C66917D1FE1CCE65DB996BA1481 /* Pods-quarantine-cookoff.modulemap */,
+				183B505851C220739CCA9231474D8DB5 /* Pods-quarantine-cookoff-acknowledgements.markdown */,
+				9658A2696D8F2E1415E01DC68585B4DA /* Pods-quarantine-cookoff-acknowledgements.plist */,
+				81B4B4BEA12E818D10D7B6EBDB2CA348 /* Pods-quarantine-cookoff-dummy.m */,
+				3B0F520C9A8E94CD9D55B07F4ACCC48C /* Pods-quarantine-cookoff-frameworks.sh */,
+				AC801CC08EFC351713FCDA612AA573F0 /* Pods-quarantine-cookoff-Info.plist */,
+				5B768A98962E3530149446BADF46BB61 /* Pods-quarantine-cookoff-umbrella.h */,
+				20FEC39F8D85D9FC3F5EFC22417C920C /* Pods-quarantine-cookoff.debug.xcconfig */,
+				1E6A6C1548D466E40965A6F2BF6CC2CD /* Pods-quarantine-cookoff.release.xcconfig */,
 			);
 			name = "Pods-quarantine-cookoff";
 			path = "Target Support Files/Pods-quarantine-cookoff";
+			sourceTree = "<group>";
+		};
+		A27B6F02B3EEC157BBB11257C758B7F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				764EBBB0043B4C0A4861569A8E9CC0E2 /* SCSDKLoginKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -75,8 +148,9 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				39486C1FA4DCCD6C6B36CFA648D23363 /* Pods */,
 				E248A2E26717213813331D4050892ABD /* Products */,
-				9AA1F8C3D09ED904444035BD6E53BCA0 /* Targets Support Files */,
+				E5486C41E5F128F86484489AA46E6241 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +162,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D80B15104769FB3727EE13AB9FACB112 /* SCSDKCreativeKit */ = {
+			isa = PBXGroup;
+			children = (
+				21BBAD9A6FA4A53B7516AC54773922C7 /* Frameworks */,
+			);
+			name = SCSDKCreativeKit;
+			sourceTree = "<group>";
+		};
 		E248A2E26717213813331D4050892ABD /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,14 +178,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		E5486C41E5F128F86484489AA46E6241 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BEE648CEBBA2D7D79D85AB198884F87 /* Pods-quarantine-cookoff */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B3A0E372A7DF9BB0038E9AB3906D06C0 /* Headers */ = {
+		40A1893297C6EBA8F91A000470F23FE4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E48295277BA8785F70C19BE13938898C /* Pods-quarantine-cookoff-umbrella.h in Headers */,
+				119E60D37299E82E248F2C8063022DBB /* Pods-quarantine-cookoff-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,16 +202,17 @@
 /* Begin PBXNativeTarget section */
 		3BB262315B50A0148D3A32832AF1AC63 /* Pods-quarantine-cookoff */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50AE0748D5BB7428169F2E3734510D7F /* Build configuration list for PBXNativeTarget "Pods-quarantine-cookoff" */;
+			buildConfigurationList = 6BF4C093951438DED9BF895215358061 /* Build configuration list for PBXNativeTarget "Pods-quarantine-cookoff" */;
 			buildPhases = (
-				B3A0E372A7DF9BB0038E9AB3906D06C0 /* Headers */,
-				24F052877BE179FCA5EC4CDA541CFC65 /* Sources */,
-				53B5D6049221C3DF609360FEBB712184 /* Frameworks */,
-				BF2721A16CECBCF58B16C23A5F0FA6A4 /* Resources */,
+				40A1893297C6EBA8F91A000470F23FE4 /* Headers */,
+				22F866D0A331DC07CB673063D355DD91 /* Sources */,
+				18CE72F6DFD8F5A2A2B0AC59A24DF184 /* Frameworks */,
+				2AB3638E9A0AB984CA6800852D5D1F3A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8971E6B43182A12DDC9D1BCC44FF61A7 /* PBXTargetDependency */,
 			);
 			name = "Pods-quarantine-cookoff";
 			productName = "Pods-quarantine-cookoff";
@@ -151,12 +242,13 @@
 			projectRoot = "";
 			targets = (
 				3BB262315B50A0148D3A32832AF1AC63 /* Pods-quarantine-cookoff */,
+				DC460828FF0F2F76C86CA020169EDB5F /* SnapSDK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BF2721A16CECBCF58B16C23A5F0FA6A4 /* Resources */ = {
+		2AB3638E9A0AB984CA6800852D5D1F3A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -166,17 +258,81 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		24F052877BE179FCA5EC4CDA541CFC65 /* Sources */ = {
+		22F866D0A331DC07CB673063D355DD91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				666C9A4EFFB519E00C1E9528CA84BF69 /* Pods-quarantine-cookoff-dummy.m in Sources */,
+				376F1D584BC3AE71EBB56321E5CF85F4 /* Pods-quarantine-cookoff-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		8971E6B43182A12DDC9D1BCC44FF61A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapSDK;
+			target = DC460828FF0F2F76C86CA020169EDB5F /* SnapSDK */;
+			targetProxy = 25956BF908BC3477C18F802ECB1C102F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		5DBAD0E0866475FBDA5F4E0EF790FE37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7528A77771239B65A6A21DBFBBAF4FE1 /* SnapSDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61740092663936E5107DEC6486B8C97B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20FEC39F8D85D9FC3F5EFC22417C920C /* Pods-quarantine-cookoff.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-quarantine-cookoff/Pods-quarantine-cookoff-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-quarantine-cookoff/Pods-quarantine-cookoff.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -241,82 +397,21 @@
 			};
 			name = Debug;
 		};
-		9A63D7255577B0A3EA3EC61CFE121663 /* Debug */ = {
+		C1AE8C4E87C7434BD3234DC4C4D15695 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 940FF0F7DFD1E9AAEE3995C16FB65AC9 /* Pods-quarantine-cookoff.debug.xcconfig */;
+			baseConfigurationReference = 7528A77771239B65A6A21DBFBBAF4FE1 /* SnapSDK.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-quarantine-cookoff/Pods-quarantine-cookoff-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-quarantine-cookoff/Pods-quarantine-cookoff.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		E738868530C5C906E5DD89D64FB7212C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88ED84293ABB9482E40F5AC2463674B5 /* Pods-quarantine-cookoff.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-quarantine-cookoff/Pods-quarantine-cookoff-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-quarantine-cookoff/Pods-quarantine-cookoff.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -378,6 +473,45 @@
 			};
 			name = Release;
 		};
+		FF66CEA2A9860821811029BE2ACD3B5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E6A6C1548D466E40965A6F2BF6CC2CD /* Pods-quarantine-cookoff.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-quarantine-cookoff/Pods-quarantine-cookoff-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-quarantine-cookoff/Pods-quarantine-cookoff.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -390,11 +524,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50AE0748D5BB7428169F2E3734510D7F /* Build configuration list for PBXNativeTarget "Pods-quarantine-cookoff" */ = {
+		52EC5BD53AFC31153286E36345A879DE /* Build configuration list for PBXAggregateTarget "SnapSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A63D7255577B0A3EA3EC61CFE121663 /* Debug */,
-				E738868530C5C906E5DD89D64FB7212C /* Release */,
+				C1AE8C4E87C7434BD3234DC4C4D15695 /* Debug */,
+				5DBAD0E0866475FBDA5F4E0EF790FE37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BF4C093951438DED9BF895215358061 /* Build configuration list for PBXNativeTarget "Pods-quarantine-cookoff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61740092663936E5107DEC6486B8C97B /* Debug */,
+				FF66CEA2A9860821811029BE2ACD3B5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

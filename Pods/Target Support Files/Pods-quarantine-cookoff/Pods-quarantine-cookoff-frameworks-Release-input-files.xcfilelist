@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-quarantine-cookoff/Pods-quarantine-cookoff-frameworks.sh
+${PODS_ROOT}/SnapSDK/SCSDKCreativeKit.framework
+${PODS_ROOT}/SnapSDK/SCSDKCoreKit.framework
+${PODS_ROOT}/SnapSDK/SCSDKLoginKit.framework

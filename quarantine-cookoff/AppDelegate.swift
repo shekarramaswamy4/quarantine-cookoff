@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SCSDKLoginKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +18,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         return true
+    }
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        return SCSDKLoginClient.application(app, open: url, options: options)
     }
 
     // MARK: UISceneSession Lifecycle
