@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		646687963D8A01C39FC73DFC /* Pods_quarantine_cookoff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B368630FB748C5BBA309EC /* Pods_quarantine_cookoff.framework */; };
 		D0B75837243DB1C400F5C6D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B75836243DB1C400F5C6D1 /* AppDelegate.swift */; };
-		D0B75839243DB1C400F5C6D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B75838243DB1C400F5C6D1 /* SceneDelegate.swift */; };
 		D0B7583B243DB1C400F5C6D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B7583A243DB1C400F5C6D1 /* ViewController.swift */; };
 		D0B7583E243DB1C400F5C6D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B7583C243DB1C400F5C6D1 /* Main.storyboard */; };
 		D0B75840243DB1C500F5C6D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B7583F243DB1C500F5C6D1 /* Assets.xcassets */; };
@@ -23,7 +22,6 @@
 		8627283FC6B1FB30B79F232C /* Pods-quarantine-cookoff.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quarantine-cookoff.release.xcconfig"; path = "Target Support Files/Pods-quarantine-cookoff/Pods-quarantine-cookoff.release.xcconfig"; sourceTree = "<group>"; };
 		D0B75833243DB1C400F5C6D1 /* quarantine-cookoff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "quarantine-cookoff.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B75836243DB1C400F5C6D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D0B75838243DB1C400F5C6D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D0B7583A243DB1C400F5C6D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D0B7583D243DB1C400F5C6D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0B7583F243DB1C500F5C6D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -84,7 +82,6 @@
 			children = (
 				D0B7584C243DB21000F5C6D1 /* VC */,
 				D0B75836243DB1C400F5C6D1 /* AppDelegate.swift */,
-				D0B75838243DB1C400F5C6D1 /* SceneDelegate.swift */,
 				D0B7583A243DB1C400F5C6D1 /* ViewController.swift */,
 				D0B7583C243DB1C400F5C6D1 /* Main.storyboard */,
 				D0B7583F243DB1C500F5C6D1 /* Assets.xcassets */,
@@ -220,7 +217,6 @@
 				D0B7584B243DB20200F5C6D1 /* LoginVC.swift in Sources */,
 				D0B7583B243DB1C400F5C6D1 /* ViewController.swift in Sources */,
 				D0B75837243DB1C400F5C6D1 /* AppDelegate.swift in Sources */,
-				D0B75839243DB1C400F5C6D1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,12 +364,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WSMXBSMDZK;
 				INFOPLIST_FILE = "quarantine-cookoff/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.homework.quarantine-cookoff";
+				PRODUCT_BUNDLE_IDENTIFIER = com.homework.quarantinecookoff;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -388,12 +384,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WSMXBSMDZK;
 				INFOPLIST_FILE = "quarantine-cookoff/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.homework.quarantine-cookoff";
+				PRODUCT_BUNDLE_IDENTIFIER = com.homework.quarantinecookoff;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

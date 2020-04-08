@@ -16,53 +16,34 @@
 	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
+	<key>CFBundleURLSchemes</key>
+	<array>
+		<string>cookoff</string>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
-	<key>LSRequiresIPhoneOS</key>
-	<true/>
-	<key>UIApplicationSceneManifest</key>
-	<dict>
-		<key>UIApplicationSupportsMultipleScenes</key>
-		<false/>
-		<key>UISceneConfigurations</key>
-		<dict>
-			<key>UIWindowSceneSessionRoleApplication</key>
-			<array>
-				<dict>
-					<key>UISceneConfigurationName</key>
-					<string>Default Configuration</string>
-					<key>UISceneDelegateClassName</key>
-					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
-					<key>UISceneStoryboardFile</key>
-					<string>Main</string>
-				</dict>
-			</array>
-		</dict>
-	</dict>
-	<key>UILaunchStoryboardName</key>
-	<string>LaunchScreen</string>
-	<key>UIMainStoryboardFile</key>
-	<string>Main</string>
-	<key>SCSDKClientId</key>
-	<string>0d14c6be-c756-4dca-b2cb-7d1cd73d588e</string>
-	<key>SCSDKRedirectUrl</key>
-	<string>quarantinecookoff://myapp</string>
-	<key>SCSDKScopes</key>
-	<array>
-		<string>https://auth.snapchat.com/oauth2/api/user.display_name</string>
-		<string>https://auth.snapchat.com/oauth2/api/user.bitmoji.avatar</string>
-		<string>https://auth.snapchat.com/oauth2/api/user.external_id</string>
-	</array>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>snapchat</string>
 		<string>bitmoji-sdk</string>
 		<string>itms-apps</string>
 	</array>
-	<key>CFBundleURLSchemes</key>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>SCSDKClientId</key>
+	<string>b87d9243-2e9d-437a-ba12-88d817d9bb5c</string>
+	<key>SCSDKRedirectUrl</key>
+	<string>cookoff://quarantine</string>
+	<key>SCSDKScopes</key>
 	<array>
-		<string>quarantinecookoff</string>
+		<string>https://auth.snapchat.com/oauth2/api/user.display_name</string>
+		<string>https://auth.snapchat.com/oauth2/api/user.bitmoji.avatar</string>
+		<string>https://auth.snapchat.com/oauth2/api/user.external_id</string>
 	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
